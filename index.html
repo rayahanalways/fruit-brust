@@ -26,6 +26,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'primary-color': '#121212',
                     }
                 }
             }
@@ -36,9 +37,9 @@
 <body>
     <header class="container mx-auto">
         <!-- nav-bar -->
-        <nav class="bg-[#F85559] rounded-full my-10">
+        <nav class="md:bg-[#F85559] rounded-full my-10">
             <div class="navbar px-12">
-                <div class="navbar-start text-white text-lg">
+                <div class="navbar-start text-white text-lg hidden md:block">
                     <ul class="flex gap-10">
                         <li><a href=""></a>Home</li>
                         <li><a href=""></a>About Us</li>
@@ -48,10 +49,10 @@
                 </div>
                 <div class="navbar-center">
                     <img src="./images/logo.png" alt="logo_photo">
-                    <h1 class="text-white text-4xl font-bold">Fruit Burst</h1>
+                    <h1 class="text-[primary-color] font-bold text-3xl md:text-white md:text-4xl ">Fruit Burst</h1>
                 </div>
                 <div class="navbar-end">
-                    <div class="relative">
+                    <div class="relative hidden md:block">
                         <input type="text" placeholder="Search here"
                             class="text-[#12121266] font-base font-normal input rounded-full outline-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -59,7 +60,22 @@
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                         </svg>
+                    </div>
 
+                    <div class="dropdown dropdown-bottom dropdown-end md:hidden">
+                        <label tabindex="0" class="m-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="dropdown-content z-[1] menu pb-10 shadow bg-[#222f3e] -200 rounded-box w-64 text-white">
+                            <li><a href=""></a>Home</li>
+                            <li><a href=""></a>About Us</li>
+                            <li><a href=""></a>Shop</li>
+                            <li><a href=""></a>All Fruits</li>
+                        </ul>
                     </div>
                 </div>
             </div>
