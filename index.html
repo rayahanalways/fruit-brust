@@ -120,7 +120,7 @@
                             class="text-lg px-4 py-2 md:btn btn-warning bg-[#F85559] border-0 md:text-xl rounded text-white">Shop
                             Now
                         </button>
-                    </div>
+                     </div>
 
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle bg-[#121212] border-0 text-white ">❮</a>
@@ -244,7 +244,15 @@
                             <div class="divider"></div>
                         </div>
                         <p class="text-base font-medium text-secondary-color">Apple</p>
-                        <span></span>
+                        <span>
+                            <div class="rating">
+                                <input type="radio" name="card-one" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-one" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="card-one" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-one" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-one" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                        </span>
                         <button class="text-lg font-bold text-[#F85559]" onclick="fruit6.showModal()">Details</button>
                         <dialog id="fruit6" class="modal">
                             <form method="dialog" class="modal-box absolute top-50% left-50%">
@@ -267,6 +275,15 @@
                             <div class="divider"></div>
                         </div>
                         <p class="text-base font-medium text-secondary-color">Orange</p>
+                        <span>
+                            <div class="rating">
+                                <input type="radio" name="card-two" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-two" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="card-two" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-two" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-two" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                        </span>
                         <button class="text-lg font-bold text-[#F85559]" onclick="details.showModal()">Details</button>
                         <dialog id="details" class="modal">
                             <form method="dialog" class="modal-box absolute top-50% left-50%">
@@ -290,6 +307,15 @@
                             <div class="divider"></div>
                         </div>
                         <p class="text-base font-medium text-secondary-color">Red Dragon</p>
+                        <span>
+                            <div class="rating">
+                                <input type="radio" name="card-three" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-three" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="card-three" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-three" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-three" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                        </span>
                         <button class="text-lg font-bold text-[#F85559]" onclick="fruit7.showModal()">Details</button>
                         <dialog id="fruit7" class="modal">
                             <form method="dialog" class="modal-box">
@@ -312,6 +338,15 @@
                             <div class="divider"></div>
                         </div>
                         <p class="text-base font-medium text-secondary-color">Banana</p>
+                        <span>
+                            <div class="rating">
+                                <input type="radio" name="card-four" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-four" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="card-four" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-four" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="card-four" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                        </span>
                         <button class="text-lg font-bold text-[#F85559]" onclick="fruit9.showModal()">Details</button>
                         <dialog id="fruit9" class="modal">
                             <form method="dialog" class="modal-box">
@@ -321,8 +356,16 @@
                         </dialog>
                     </div>
                 </div>
+
             </div>
+
         </div>
+        <div class="flex justify-center my-5">
+            <button class="btn btn-primary bg-[#F85559] border-0">Shop All</button>
+        </div>
+
+        <!-- card section end -->
+
 
     </main>
 
