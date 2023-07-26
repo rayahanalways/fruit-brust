@@ -171,7 +171,7 @@
 
     <main class="container mx-auto ">
         <!-- item section -->
-        <div class="md:flex items-center">
+        <div class="md:flex my-6">
             <div class="">
                 <h1 class="md:text-left text-center text-primary-color font-extrabold text-5xl mb-2">Deal of the day
                 </h1>
@@ -180,7 +180,7 @@
                     literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <!-- countdown section -->
-            <div class="flex justify-center space-x-3">
+            <div class="flex justify-center">
                 <div>
                     <h1 class="text-5xl font-extrabold  text-primary-color">29</h1>
                     <p class="text-base font-medium text-secondary-color text-center">Days</p>
@@ -232,6 +232,98 @@
 
 
         </div>
+        <!-- card section  -->
+        <div class="md:flex gap-6 py-10 relative">
+            <!-- card one  -->
+            <div class="md:w-[400px] mb-5 border py-4">
+                <div class="card bg-white w-full">
+                    <figure><img src="./images/fruit6.png" alt="apple" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class="text-2xl font-extrabold text-primary-color">12.90$ - 18.85$</h2>
+                        <div class="flex flex-col w-full border-opacity-50">
+                            <div class="divider"></div>
+                        </div>
+                        <p class="text-base font-medium text-secondary-color">Apple</p>
+                        <span></span>
+                        <button class="text-lg font-bold text-[#F85559]" onclick="fruit6.showModal()">Details</button>
+                        <dialog id="fruit6" class="modal">
+                            <form method="dialog" class="modal-box absolute top-50% left-50%">
+                                <img src="./images/fruit6.png" alt="orange">
+                                <button class="absolute right-2 top-2 text-3xl font-extrabold">✕</button>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card two  -->
+            <div class="md:w-[400px] mb-5 border py-4">
+                <div class="card  bg-base-100 w-full">
+                    <figure><img src="./images/fruit7.png" alt="apple" /></figure>
+                    <div class="card-body  text-center">
+                        <h2 class="text-2xl font-extrabold text-primary-color">12.90$ - 18.85$</h2>
+                        <div class="flex flex-col w-full border-opacity-50">
+                            <div class="divider"></div>
+                        </div>
+                        <p class="text-base font-medium text-secondary-color">Orange</p>
+                        <button class="text-lg font-bold text-[#F85559]" onclick="details.showModal()">Details</button>
+                        <dialog id="details" class="modal">
+                            <form method="dialog" class="modal-box absolute top-50% left-50%">
+                                <img src="./images/fruit7.png" alt="orange">
+                                <button class="absolute right-2 top-2 text-3xl font-extrabold">✕</button>
+                            </form>
+                        </dialog>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card three  -->
+            <div class="md:w-[400px] mb-5 border py-4">
+                <div class="card  bg-base-100 w-full">
+                    <figure><img src="./images/fruit8.png" alt="apple" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class="text-2xl font-extrabold text-primary-color">12.90$ - 18.85$</h2>
+                        <div class="flex flex-col w-full border-opacity-50">
+                            <div class="divider"></div>
+                        </div>
+                        <p class="text-base font-medium text-secondary-color">Red Dragon</p>
+                        <button class="text-lg font-bold text-[#F85559]" onclick="fruit7.showModal()">Details</button>
+                        <dialog id="fruit7" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <img src="./images/fruit8.png" alt="orange">
+                                <button class="absolute right-2 top-2 text-3xl font-extrabold">✕</button>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card four  -->
+            <div class="md:w-[400px] mb-5 border py-4">
+                <div class="card  bg-base-100 w-full">
+                    <figure><img src="./images/fruit9.png" alt="apple" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class="text-2xl font-extrabold text-primary-color">12.90$ - 18.85$</h2>
+                        <div class="flex flex-col w-full border-opacity-50">
+                            <div class="divider"></div>
+                        </div>
+                        <p class="text-base font-medium text-secondary-color">Banana</p>
+                        <button class="text-lg font-bold text-[#F85559]" onclick="fruit9.showModal()">Details</button>
+                        <dialog id="fruit9" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <img src="./images/fruit9.png" alt="orange">
+                                <button class="absolute right-2 top-2 text-3xl font-extrabold">✕</button>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <footer></footer>
